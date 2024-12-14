@@ -8,37 +8,46 @@
   <style>
     body {
       font-family: 'Futura', sans-serif;
+      color: black;
+      background-color: white;
+    }
+    h1, a {
+      text-transform: uppercase;
+      font-weight: bold;
+    }
+    a:hover {
+      text-decoration: none;
     }
   </style>
 </head>
 <body class="bg-white text-black">
   <!-- Navbar -->
-  <header>
+  <header class="border-b border-black">
     <div class="container mx-auto flex items-center justify-between p-5">
-      <h1 class="text-xl font-bold">NAYA</h1>
+      <h1 class="text-2xl">NAYA</h1>
       <nav>
-        <ul class="flex space-x-6">
-          <li><a href="about.html" class="hover:underline">About Us</a></li>
-          <li><a href="values.html" class="hover:underline">Values</a></li>
-          <li><a href="funding.html" class="hover:underline">Funding</a></li>
-          <li><a href="contact.html" class="hover:underline">Contact</a></li>
+        <ul class="flex space-x-4">
+          <li><a href="about.html" class="hover:text-gray-600">About</a></li>
+          <li><a href="values.html" class="hover:text-gray-600">Values</a></li>
+          <li><a href="funding.html" class="hover:text-gray-600">Funding</a></li>
+          <li><a href="contact.html" class="hover:text-gray-600">Contact</a></li>
         </ul>
       </nav>
     </div>
   </header>
 
   <!-- Hero Section -->
-  <section class="text-center py-20">
+  <section class="text-center py-32">
     <div class="container mx-auto">
-      <h1 class="text-4xl font-bold mb-4">Welcome</h1>
-      <a href="#" class="px-6 py-3 rounded font-medium hover:bg-black hover:text-white">Explore</a>
+      <h1 class="text-6xl font-bold mb-8">Welcome to NAYA</h1>
+      <a href="#" class="border border-black px-8 py-4 rounded hover:bg-black hover:text-white">Explore</a>
     </div>
   </section>
 
   <!-- Footer -->
-  <footer class="text-center py-6">
+  <footer class="text-center py-8 border-t border-black">
     <div class="container mx-auto">
-      <p>&copy; 2024 NAYA</p>
+      <p class="text-sm">&copy; 2024 NAYA</p>
     </div>
   </footer>
 </body>
